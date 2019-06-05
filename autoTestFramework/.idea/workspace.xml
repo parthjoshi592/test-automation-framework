@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee375449-4271-4ece-a791-dd88f38636a2" name="Default Changelist" comment="" />
+    <list default="true" id="ee375449-4271-4ece-a791-dd88f38636a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTest-functional-tests/src/main/java/autoTestFramework/functionalTests/homepage/GoogleHomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoTest-functional-tests/src/main/java/autoTestFramework/functionalTests/homepage/GoogleHomePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTest-functional-tests/target/classes/autoTestFramework/functionalTests/homepage/GoogleHomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoTest-functional-tests/target/classes/autoTestFramework/functionalTests/homepage/GoogleHomePageTests.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/autoTest-framework/target/" />
@@ -22,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoTest-framework/src/main/java/autoTestFramework/testFramework/core/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#747#748#0" expanded="true" />
@@ -36,10 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoTest-framework/src/main/java/autoTestFramework/testFramework/core/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="576">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
                 <element signature="e#797#798#0" expanded="true" />
               </folding>
             </state>
@@ -49,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoTest-page-objects/src/main/java/autoTestFramework/testPageObjects/homepage/GoogleHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="378">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
@@ -63,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/autoTest-functional-tests/src/main/java/autoTestFramework/functionalTests/homepage/GoogleHomePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+            <state relative-caret-position="396">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,6 +86,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,6 +126,7 @@
     <option name="width" value="1385" />
     <option name="height" value="739" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -128,6 +138,11 @@
             <path>
               <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoTestFramework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoTestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autoTest" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +266,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/autoTest-page-objects/src/main/java/autoTestFramework/autoTestPageObjects" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -335,12 +351,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoogleHomePageTests_(1) - 2019.06.05 at 12h 00m 34s.xml">
-      <configuration name="GoogleHomePageTests (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GoogleHomePageTests_homePageTests - 2019.06.05 at 12h 02m 23s.xml">
-      <configuration name="GoogleHomePageTests.homePageTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GoogleHomePageTests_(1) - 2019.06.05 at 12h 25m 20s.xml">
       <configuration name="GoogleHomePageTests (1)" configurationId="TestNG" />
     </history-entry>
@@ -365,6 +375,12 @@
     <history-entry file="GoogleHomePageTests_(1) - 2019.06.05 at 13h 00m 41s.xml">
       <configuration name="GoogleHomePageTests (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GoogleHomePageTests_(1) - 2019.06.05 at 13h 01m 12s.xml">
+      <configuration name="GoogleHomePageTests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleHomePageTests_(1) - 2019.06.05 at 14h 48m 04s.xml">
+      <configuration name="GoogleHomePageTests (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1646" height="892" extended-state="6" />
@@ -374,15 +390,15 @@
       <window_info id="Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.25283733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.25283733" />
       <window_info id="Structure" order="1" sideWeight="0.5020576" side_tool="true" weight="0.25283733" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32938075" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32806325" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3992095" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3992095" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36363637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,24 +479,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoTest-framework/src/main/java/autoTestFramework/testFramework/core/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoTest-framework/src/main/java/autoTestFramework/testFramework/core/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="576">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
             <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
@@ -488,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/autoTest-page-objects/src/main/java/autoTestFramework/testPageObjects/homepage/GoogleHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
@@ -498,10 +503,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/autoTest-framework/src/main/java/autoTestFramework/testFramework/core/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoTestFramework.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/autoTest-functional-tests/src/main/java/autoTestFramework/functionalTests/homepage/GoogleHomePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+        <state relative-caret-position="396">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
