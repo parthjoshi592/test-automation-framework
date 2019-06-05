@@ -11,7 +11,7 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuite() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Personal\\Automation\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Personal\\Automation\\autoTestFramework\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         WebDriver driver = new ChromeDriver(options);
