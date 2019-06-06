@@ -5,12 +5,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class GoogleHomePage extends BasePage {
+public class SearchResultsPage extends BasePage {
 
     @FindBy(xpath = "//input[@title = 'Search']")
-    public WebElement searchBox;
+    public WebElement resultPageSearchBox;
 
-    public GoogleHomePage(WebDriver driver) {
+    @FindBy(xpath = "//div[@id = 'resultStats']")
+    public WebElement resultStats;
+
+    public SearchResultsPage(WebDriver driver) {
         super(driver);
     }
 }

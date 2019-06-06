@@ -2,11 +2,10 @@ package autoTestFramework.functionalTests.homepage;
 
 import autoTestFramework.testPageObjects.homepage.GoogleHomePage;
 import autoTestFramework.testFramework.core.BaseTest;
+import autoTestFramework.testPageObjects.homepage.SearchResultsPage;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class GoogleHomePageTests extends BaseTest {
 
@@ -17,7 +16,11 @@ public class GoogleHomePageTests extends BaseTest {
 
         homePage.waitUntilVisible(homePage.searchBox);
         homePage.searchBox.sendKeys("India" + Keys.ENTER);
-        assertEquals("India", homePage.searchBox.getAttribute("value"));
-        homePage.waitUntilVisible(homePage.resultStats);
+
+        SearchResultsPage searchResultsPage = new SearchResultsPage(getDriver());
+
+        assertEquals("India", searchResultsPage.resultPageSearchBox.getAttribute("value"));
+        searchResultsPage.waitUntilVisible(searchResultsPage.resultStats);
+        assertTrue(searchResultsPage.resultStats.isDisplayed());
     }
 }
